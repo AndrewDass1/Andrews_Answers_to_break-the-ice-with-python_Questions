@@ -1,0 +1,12 @@
+listarray = []
+numdim = int(input(""))
+numenter = int(input(""))
+
+for i in range(0, numdim):
+  listarray.append([])
+
+# for i2 in range(0, len(listarray))
+
+print(listarray)
+print(len(listarray))
+print((listarray[1]))
