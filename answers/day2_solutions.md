@@ -18,7 +18,7 @@ C = 50
 D = int(input(""))
 H = 30
 
-Q = ((2*C*D)/H)**(1/2)
+Q = ((2*C*D)/H) ** (1/2)
 print(Q)
 
 # Question 7
@@ -29,7 +29,7 @@ numenter = int(input(""))
 for i in range(0, numdim):
   listarray.append([])
 
-# for i2 in range(0, len(listarray))
+<!--for i2 in range(0, len(listarray))-->
 
 print(listarray)
 print(len(listarray))
