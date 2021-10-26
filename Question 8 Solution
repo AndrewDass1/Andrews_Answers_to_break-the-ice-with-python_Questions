@@ -1,0 +1,9 @@
+statement = input("").split(",")
+num_counter = 0
+sorted_statement = sorted(statement)
+
+#Split shows if the statement is separated by , then it will be sorted
+
+for i in range(0, len(statement)):
+  print(sorted_statement[num_counter], end=" ")
+  num_counter += 1
