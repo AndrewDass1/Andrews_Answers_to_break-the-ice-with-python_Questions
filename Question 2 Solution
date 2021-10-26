@@ -1,8 +1,0 @@
-num = int(input(""))
-product_of_num = 1
-
-while (num > 0):
-  product_of_num = product_of_num * num
-  num -= 1
-
-print(product_of_num)
