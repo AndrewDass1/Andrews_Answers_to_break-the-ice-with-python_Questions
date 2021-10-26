@@ -1,9 +1,0 @@
-num = int(input(""))
-list_of_num = []
-
-for i in range(0, num):
-  enter_num = int(input(""))
-  list_of_num.append(enter_num)
-
-num_tuple = tuple(list_of_num)
-print(num_tuple)
