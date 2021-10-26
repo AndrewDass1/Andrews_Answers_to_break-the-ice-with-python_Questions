@@ -1,0 +1,8 @@
+statement = input("").split(" ")
+no_repeated_word_statement = set(statement)
+no_repeated_word_statement = list(no_repeated_word_statement)
+num_counter = 0
+
+for i in range(0, len(no_repeated_word_statement)):
+  print(no_repeated_word_statement[num_counter], end=" ")
+  num_counter += 1
