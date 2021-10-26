@@ -18,8 +18,20 @@ C = 50 <br>
 D = int(input("")) <br>
 H = 30 <br>
 
-Q = ((2*C*D)/H) ** (1/2) <br>
+Q = ((2* C *D) / H) ** (1/2) <br>
 print(Q) <br>
+
+With a Function: <br>
+def math_formula(): <br>
+
+  C = 50 <br>
+  D = int(input("")) <br>
+  H = 30 <br>
+
+  Q = ((2 * C * D) / H) ** (1/2) <br>
+  return(Q) <br>
+
+math_formula()
 
 # Question 7
 
