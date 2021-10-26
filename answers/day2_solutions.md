@@ -1,60 +1,49 @@
 # Day 2 Solutions
 
 # Question 4
-num = int(input(""))
-list_of_num = []
+num = int(input("")) <br>
+list_of_num = [] <br>br>
 
-for i in range(0, num):
-  enter_num = int(input(""))
-  list_of_num.append(enter_num)
+for i in range(0, num): <br>
+  enter_num = int(input("")) <br>
+  list_of_num.append(enter_num) <br>
 
-num_tuple = tuple(list_of_num)
-print(num_tuple)
+num_tuple = tuple(list_of_num) <br>
+print(num_tuple) <br>
 
 # Question 5
 
 # Question 6
-C = 50
-D = int(input(""))
-H = 30
+C = 50 <br>
+D = int(input("")) <br>
+H = 30 <br>
 
-Q = ((2*C*D)/H) ** (1/2)
-print(Q)
+Q = ((2*C*D)/H) ** (1/2) <br>
+print(Q) <br>
 
 # Question 7
-listarray = []
-numdim = int(input(""))
-numenter = int(input(""))
 
-for i in range(0, numdim):
-  listarray.append([])
-
-<!--for i2 in range(0, len(listarray))-->
-
-print(listarray)
-print(len(listarray))
-print((listarray[1]))
 
 # Question 8
-statement = input("").split(",")
-num_counter = 0
-sorted_statement = sorted(statement)
+statement = input("").split(",") <br>
+num_counter = 0 <br>
+sorted_statement = sorted(statement) <br>
 
 #Split shows if the statement is separated by , then it will be sorted
 
-for i in range(0, len(statement)):
-  print(sorted_statement[num_counter], end=" ")
-  num_counter += 1
+for i in range(0, len(statement)): <br>
+  print(sorted_statement[num_counter], end=" ") <br>
+  num_counter += 1 <br>
   
 # Question 9
-num_of_statements = int(input(""))
-statementlist = []
-num_counter = 0
+num_of_statements = int(input("")) <br>
+statementlist = [] <br>
+num_counter = 0 <br>
 
-for i in range(0, num_of_statements):
-  statement = input("").upper()
-  statementlist.append(statement)
+for i in range(0, num_of_statements): <br>
+  statement = input("").upper() <br>
+  statementlist.append(statement) <br>
 
-for i2 in range(0, num_of_statements):
-  print(statementlist[num_counter])
-  num_counter += 1
+for i2 in range(0, num_of_statements): <br>
+  print(statementlist[num_counter]) <br>
+  num_counter += 1 <br>
