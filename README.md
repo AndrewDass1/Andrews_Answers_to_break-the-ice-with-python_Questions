@@ -1,5 +1,5 @@
-# BreaktheIceAnswers
+# 'break-the-ice-with-python' Answers
 My own answers to the "break-the-ice-with-python" questions
 
-# Original Repository
+# Original Repository:
 https://github.com/darkprinx/break-the-ice-with-python
