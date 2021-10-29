@@ -46,3 +46,32 @@ for i in range(0, len(num_odd_square_list)-1):
 
 print(num_odd_square_list[len(num_odd_square_list) -1] )
 ```
+# Question 17
+```
+#Q17
+
+def bankActions():
+
+
+  actions = int(input(""))
+  total = 0
+
+  for i in range(0, actions):
+    choice = input()
+
+    if choice == 'D':
+      deposit = float(input(""))
+      total = total + deposit
+
+    elif choice == 'W':
+      withdraw = float(input(""))
+      total = total - withdraw
+
+    else:
+      print('Invalid')
+
+  return total
+  
+    
+bankActions()
+```
