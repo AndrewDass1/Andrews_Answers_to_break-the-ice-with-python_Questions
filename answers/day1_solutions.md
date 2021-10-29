@@ -1,10 +1,12 @@
 # Day 1 Solutions
 
 # Question 1
+'''
 for i in range(2000, 3201): <br>
   if i % 7 == 0 and i % 5 !=0 : <br>
     print(i, end=" ")
-    
+'''   
+   
 # Question 2
 num = int(input("")) <br>
 product_of_num = 1 <br>
