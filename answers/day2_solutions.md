@@ -1,61 +1,71 @@
 # Day 2 Solutions
 
 # Question 4
-num = int(input("")) <br>
-list_of_num = [] <br>br>
+```
+num = int(input("")) 
+list_of_num = []
 
-for i in range(0, num): <br>
-  enter_num = int(input("")) <br>
-  list_of_num.append(enter_num) <br>
+for i in range(0, num): 
+  enter_num = int(input("")) 
+  list_of_num.append(enter_num) 
 
-num_tuple = tuple(list_of_num) <br>
-print(num_tuple) <br>
+num_tuple = tuple(list_of_num) 
+print(num_tuple) 
+```
 
 # Question 5
 
 # Question 6
-C = 50 <br>
-D = int(input("")) <br>
-H = 30 <br>
+```
+C = 50 
+D = int(input("")) 
+H = 30
 
-Q = ((2* C *D) / H) ** (1/2) <br>
-print(Q) <br>
+Q = ((2* C *D) / H) ** (1/2) 
+print(Q) 
+```
 
-With a Function: <br>
-def math_formula(): <br>
+```
+With a Function:
+def math_formula():
 
-  C = 50 <br>
-  D = int(input("")) <br>
-  H = 30 <br>
+  C = 50 
+  D = int(input("")) 
+  H = 30 
 
-  Q = ((2 * C * D) / H) ** (1/2) <br>
-  return(Q) <br>
+  Q = ((2 * C * D) / H) ** (1/2)
+  return(Q) 
 
 math_formula()
+```
 
 # Question 7
 
 
 # Question 8
-statement = input("").split(",") <br>
-num_counter = 0 <br>
-sorted_statement = sorted(statement) <br>
+```
+statement = input("").split(",")
+num_counter = 0
+sorted_statement = sorted(statement)
 
 #Split shows if the statement is separated by , then it will be sorted
 
-for i in range(0, len(statement)): <br>
-  print(sorted_statement[num_counter], end=" ") <br>
-  num_counter += 1 <br>
+for i in range(0, len(statement)):
+  print(sorted_statement[num_counter], end=" ")
+  num_counter += 1 
+```
   
 # Question 9
-num_of_statements = int(input("")) <br>
-statementlist = [] <br>
-num_counter = 0 <br>
+```
+num_of_statements = int(input(""))
+statementlist = []
+num_counter = 0
 
-for i in range(0, num_of_statements): <br>
-  statement = input("").upper() <br>
-  statementlist.append(statement) <br>
+for i in range(0, num_of_statements):
+  statement = input("").upper()
+  statementlist.append(statement)
 
-for i2 in range(0, num_of_statements): <br>
-  print(statementlist[num_counter]) <br>
-  num_counter += 1 <br>
+for i2 in range(0, num_of_statements):
+  print(statementlist[num_counter])
+  num_counter += 1
+```
