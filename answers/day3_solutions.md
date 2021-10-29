@@ -62,6 +62,7 @@ words_and_letters = str(words_and_letters)
 
 print('LETTERS',digitletterCounter(words_and_letters)[0]) 
 print('DIGITS',digitletterCounter(words_and_letters)[1]) 
+```
 
 # Question 14
 ```
