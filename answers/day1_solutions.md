@@ -8,6 +8,7 @@ for i in range(2000, 3201): <br>
 ``` 
    
 # Question 2
+```
 num = int(input("")) <br>
 product_of_num = 1 <br>
 
@@ -16,14 +17,17 @@ while (num > 0): <br>
   num -= 1 <br>
 
 print(product_of_num)
+```
 
 # Question 3
+```
 dictionary_of_num = {} <br>
 num = int(input("")) <br>
 num2 = 1 <br>
 
 for i in range(1, num+1): <br>
-  dictionary_of_num[num2] = num2**num2 <br>
+  dictionary_of_num[num2] = num2**num2 
   num2+=1 <br>
 
 print(dictionary_of_num) 
+```
