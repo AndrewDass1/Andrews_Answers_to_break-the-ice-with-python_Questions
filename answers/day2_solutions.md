@@ -103,6 +103,41 @@ math_formula()
 
 
 # Question 8
+
+# Q8 Task
+Write a program that accepts a comma separated sequence of words as input and prints the words in a comma-separated sequence after sorting them alphabetically. <br>
+<br>
+Suppose the following input is supplied to the program:
+```
+without,hello,bag,world
+```
+Then, the output should be:
+```
+bag,hello,without,world
+```
+
+
+# Q8 Procedure
+1. Declare a variable to input a sequence of words: 
+```
+statement = input("").split(",")
+```
+
+2. Declare another variable to sort the statement
+```
+sorted_statement = sorted(statement)
+```
+
+3. Declare a for loop to print out the variables with the sorted sequences by using another variable that is declared to be a counter and to be updated within the for loop:
+```
+num_counter = 0
+
+for i in range(0, len(statement)):
+  print(sorted_statement[num_counter], end=" ")
+  num_counter += 1 
+```
+
+# Q8 Solution
 ```
 statement = input("").split(",")
 num_counter = 0
@@ -116,6 +151,45 @@ for i in range(0, len(statement)):
 ```
   
 # Question 9
+
+# Q9 Task
+Write a program that accepts sequence of lines as input and prints the lines after making all characters in the sentence capitalized. <br>
+<br>
+Suppose the following input is supplied to the program:
+```
+Hello world
+Practice makes perfect
+```
+Then, the output should be:
+```
+HELLO WORLD
+PRACTICE MAKES PERFECT
+```
+# Q9 Procedure
+1. Declare a number to take an integer data type:
+```
+num_of_statements = int(input(""))
+```
+2. Declare a variable to be an empty list:
+```
+statementlist = []
+```
+3. Declare a for loop to input words in the empty list:
+```
+for i in range(0, num_of_statements):
+  statement = input("").upper()
+  statementlist.append(statement)
+```
+4. Use another for loop and optionally a variable to print out the terms in the for loop:
+```
+num_counter = 0
+
+for i2 in range(0, num_of_statements):
+  print(statementlist[num_counter])
+  num_counter += 1
+```
+
+# Q9 Solution
 ```
 num_of_statements = int(input(""))
 statementlist = []
