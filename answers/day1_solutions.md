@@ -111,57 +111,57 @@ In the line of code 'for in range(1, num+1)', it is written as 'num+1' since the
 # Q3 Demonstration
 If num was inputted to take the integer = 8, then the dictionary would calcuate the following shown below: <br>
 <br>
-When num2 = 1, then the dictionary will show: <br>
+When num2 = 1, then the dictionary will calculate: <br>
 <br>
 dictionary_of_num[1] = 1 * 1 <br>
 
 <br>
-When num2 = 2, then the dictionary will show: <br>
+When num2 = 2, then the dictionary will calculate: <br>
 <br>
 dictionary_of_num[2] = 2 * 2 <br>
 <br>
 
 <br>
-When num2 = 3, then the dictionary will show: <br>
+When num2 = 3, then the dictionary will calculate: <br>
 <br>
 dictionary_of_num[3] = 3 * 3 <br>
 <br>
 
 <br>
-When num2 = 4, then the dictionary will show: <br>
+When num2 = 4, then the dictionary will calculate: <br>
 <br>
 dictionary_of_num[4] = 4 * 4 <br>
 <br>
 
 <br>
-When num2 = 5, then the dictionary will show: <br>
+When num2 = 5, then the dictionary will calculate: <br>
 <br>
 dictionary_of_num[5] = 5 * 5 <br>
 <br>
 
 <br>
-When num2 = 6, then the dictionary will show: <br>
+When num2 = 6, then the dictionary will calculate: <br>
 <br>
 dictionary_of_num[6] = 6 * 6 <br>
 <br>
 
 <br>
-When num2 = 7, then the dictionary will show: <br>
+When num2 = 7, then the dictionary will calculate: <br>
 <br>
 dictionary_of_num[7] = 7 * 7 <br>
 <br>
 
 <br>
-When num2 = 8, then the dictionary will show: <br>
+When num2 = 8, then the dictionary will calculate: <br>
 <br>
 dictionary_of_num[8] = 8 * 8 <br>
 <br>
 
-When printing the dictionary with the command
+When printing the variable that contains the dictionary with the command
 ```
 print(dictionary_of_num)
 ```
-The following will show:
+The following will show all the index numbers with the square value of the index:
 ```
 {1: 1, 2: 4, 3: 9, 4: 16, 5: 25, 6: 36, 7: 49, 8: 64}
 ```
