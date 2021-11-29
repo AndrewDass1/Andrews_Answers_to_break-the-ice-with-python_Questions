@@ -133,6 +133,7 @@ def bankActions():
     choice = input()
 ```
 Total is the total amount of money that is left from all the deposits and withdrawals. <br>
+<br>
 3. Create if and else statements to either deposit or withdraw money:
 ```
 if choice == 'D':
