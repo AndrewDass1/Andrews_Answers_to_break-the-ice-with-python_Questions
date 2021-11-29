@@ -1,4 +1,4 @@
-# Day 8 solutions
+# Day 8 Solutions
 
 # Question 22
 
