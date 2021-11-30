@@ -193,6 +193,7 @@ The filter function syntax works in a similar way to the map function. <br>
 print(list(even_nums))
 ```
 # Q42 Solution
+```
 def multiply(num):
     return num*num
     
@@ -204,7 +205,7 @@ list_one_to_ten = [1,2,3,4,5,6,7,8,9,10]
 
 even_nums = map(multiply, filter(num_check_div_by_2, list_one_to_ten))
 print(list(even_nums))
-
+```
 # Question 43
 
 # Q43 Task
