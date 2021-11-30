@@ -193,3 +193,159 @@ def one_to_20():
     
 one_to_20()
 ```
+# Question 35
+
+# Q35 Task
+Define a function which can generate a list where the values are square of numbers between 1 and 20 (both included). Then the function needs to print the last 5 elements in the list.
+
+# Q35 Procedure
+1. Make a function:
+```
+def one_to_20():
+```
+2. Within the function, assign a variable to an empty list:
+```
+list_of_nums = []
+```
+3. Use a for loop to find the square values from 1-20 and append them to the empty list:
+```
+num = 0
+    
+for i in range(0, 21):
+  num_squ = num * num
+  list_of_nums.append(num_squ)
+  num +=1 
+```
+4. Return the first five elements in the list:
+```
+return list_of_nums[16], list_of_nums[17], list_of_nums[18], list_of_nums[19], list_of_nums[20]
+```
+5. Test the function:
+```
+one_to_20()
+```
+# Q35 Solution
+```
+def one_to_20():
+    
+    list_of_nums = []
+    num = 0
+    
+    for i in range(0, 21):
+        num_squ = num * num
+        list_of_nums.append(num_squ)
+        num +=1 
+        
+    return list_of_nums[16], list_of_nums[17], list_of_nums[18], list_of_nums[19], list_of_nums[20]
+        
+    
+one_to_20()
+```
+
+# Question 36
+
+# Q36 Task
+Define a function which can generate a list where the values are square of numbers between 1 and 20 (both included). Then the function needs to print all values except the first 5 elements in the list.
+
+# Q36 Procedure
+1. Make a function:
+```
+def one_to_20():
+```
+2. Within the function, assign a variable to an empty list:
+```
+list_of_nums = []
+```
+3. Use a for loop to find the square values from 1-20 and append them to the empty list:
+```
+num = 0
+    
+for i in range(0, 21):
+  num_squ = num * num
+  list_of_nums.append(num_squ)
+  num +=1 
+```
+4. Return the every element in list except the last five elements:
+```
+return list_of_nums[0:16]
+```
+5. Test the function:
+```
+one_to_20()
+```
+
+# Q36 Solution
+```
+def one_to_20():
+    
+    list_of_nums = []
+    num = 0
+    
+    second_list = []
+    
+    for i in range(0, 21):
+        num_squ = num * num
+        list_of_nums.append(num_squ)
+        num +=1 
+    
+    return list_of_nums[0:16]
+        
+one_to_20()
+```
+
+# Question 37
+
+# Q37 Task
+Define a function which can generate and print a tuple where the value are square of numbers between 1 and 20 (both included).
+
+# Q37 Procedure 
+1. Make a function:
+```
+def one_to_20():
+```
+2. Within the function, assign a variable to an empty list:
+```
+list_of_nums = []
+```
+3. Use a for loop to find the square values from 1-20 and append them to the empty list:
+```
+num = 0
+    
+for i in range(0, 21):
+  num_squ = num * num
+  list_of_nums.append(num_squ)
+  num +=1 
+```
+4. Cast the list to a tuple:
+```
+tuple_of_num = tuple(list_of_num)
+```
+5. Return the tuple:
+```
+return tuple_of_num
+```
+6. Test the function:
+```
+one_to_20()
+```
+
+# Q37 Solution
+```
+def one_to_20():
+    
+    list_of_num = []
+    num = 0
+    
+    second_list = []
+    
+    for i in range(0, 21):
+        num_squ = num * num
+        list_of_num.append(num_squ)
+        num +=1
+        
+    tuple_of_num = tuple(list_of_num)
+    
+    return tuple_of_num
+        
+one_to_20()
+```
