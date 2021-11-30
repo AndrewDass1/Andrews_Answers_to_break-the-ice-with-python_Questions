@@ -135,6 +135,7 @@ for i in range(0, 11):
 elements_squ = map(multiply, list_of_nums)
 ```
 The map function takes two variables in the parenthesis: a function and then a data type. It follows the function's rules and applies them to the data type that was given.  <br>
+<br>
 In this case, the function returns the square value of any number given to it. Since the list contains numbers 1 to 10, the map function will use the multiply function to return the square values of every number. <br>
 <br>
 5. Print the list of elements:
